@@ -1,5 +1,5 @@
 /** Radio channels */
-export const CHANNELS = ['Say', 'Radio', 'Me', 'OOC'] as const;
+export const CHANNELS = ['Say', 'Whisper', 'Radio', 'Me', 'OOC', 'LOOC'] as const;
 
 /** Window sizes in pixels */
 export enum WINDOW_SIZES {
@@ -69,5 +69,21 @@ export const RADIO_PREFIXES = {
   ':y ': {
     id: 'centcom',
     label: 'CCom',
+  },
+  ':w ': {
+    id: 'interdyne',
+    label: 'Intdyn',
+  },
+  ':q ': {
+    id: 'cybersun',
+    label: 'Cyber',
+  },
+  ':g ': {
+    id: 'guild',
+    label: 'Guild',
+  },
+  ':k ': {
+    id: 'tarkon',
+    label: 'Tarkon',
   },
 } as const;

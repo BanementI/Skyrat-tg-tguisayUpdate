@@ -13,6 +13,8 @@ $say: #a4bad6;
 $radio: #1ecc43;
 $me: #5975da;
 $ooc: #cca300;
+$looc: #cc6d00; // Made orange to differentiate from OOC
+$whisper: #bdc6d3;
 
 ////////////////////////////////////////////////
 // Subchannel chat colors
@@ -28,12 +30,16 @@ $security: #dd3535;
 $syndicate: #8f4a4b;
 $service: #6ca729;
 $supply: #b88646;
+$guild: #c0c0c0;
+$tarkon: #58c800;
 
 $_channel_map: (
   'say': $say,
+  'whisper': $whisper,
   'radio': $radio,
   'me': $me,
   'ooc': $ooc,
+  'looc': $looc,
   'ai': $ai,
   'binary': $binary,
   'centcom': $centcom,
@@ -46,6 +52,10 @@ $_channel_map: (
   'syndicate': $syndicate,
   'service': $service,
   'supply': $supply,
+  'interdyne': $syndicate,
+  'cybersun':$syndicate,
+  'guild': $guild,
+  'tarkon': $tarkon,
 );
 
 $channel_keys: map.keys($_channel_map) !default;
